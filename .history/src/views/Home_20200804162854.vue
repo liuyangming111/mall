@@ -16,7 +16,7 @@
    },
    data () {
      return {
-       arr:''
+       ma
      }
    },
    methods: {
