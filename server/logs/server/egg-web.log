@@ -201,3 +201,4 @@
 2020-08-04 13:29:26,212 WARN 10956 [ClusterClient:Watcher] follower closed, and try to init it again
 2020-08-04 13:48:59,379 WARN 10956 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
 2020-08-04 13:48:59,414 WARN 10956 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-04 16:01:10,565 WARN 10956 [ClusterClient:Watcher] follower closed, and try to init it again
