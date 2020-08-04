@@ -1,0 +1,1112 @@
+2020-07-27 09:10:01,386 ERROR 14240 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 14240
+hostname: LAPTOP-I8SB88A2
+
+2020-07-27 13:02:06,535 ERROR 18124 nodejs.ClusterClientNoResponseError: client no response in 3082319ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 18124
+hostname: LAPTOP-I8SB88A2
+
+2020-07-27 13:12:08,260 ERROR 18124 nodejs.ClusterClientNoResponseError: client no response in 601680ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 18124
+hostname: LAPTOP-I8SB88A2
+
+2020-07-27 13:28:27,343 ERROR 18124 nodejs.ClusterClientNoResponseError: client no response in 378967ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 18124
+hostname: LAPTOP-I8SB88A2
+
+2020-07-27 16:36:48,668 ERROR 18124 nodejs.ClusterClientNoResponseError: client no response in 440945ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 18124
+hostname: LAPTOP-I8SB88A2
+
+2020-07-27 17:58:54,718 ERROR 18124 nodejs.ClusterClientNoResponseError: client no response in 536982ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 18124
+hostname: LAPTOP-I8SB88A2
+
+2020-07-27 18:22:37,374 ERROR 18124 nodejs.ClusterClientNoResponseError: client no response in 822591ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 18124
+hostname: LAPTOP-I8SB88A2
+
+2020-07-27 18:39:52,213 ERROR 18124 nodejs.ClusterClientNoResponseError: client no response in 534819ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 18124
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 09:22:50,146 ERROR 13140 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\Liu\Desktop\mall\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Liu\Desktop\mall\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"\""
+kind: "ObjectId"
+value: ""
+path: "_id"
+reason: {}
+pid: 13140
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 09:33:29,034 ERROR 13140 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\Liu\Desktop\mall\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Liu\Desktop\mall\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: {}
+pid: 13140
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 09:34:34,564 ERROR 13140 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\Liu\Desktop\mall\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Liu\Desktop\mall\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"\""
+kind: "ObjectId"
+value: ""
+path: "_id"
+reason: {}
+pid: 13140
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 09:34:48,036 ERROR 13140 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\Liu\Desktop\mall\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Liu\Desktop\mall\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"\""
+kind: "ObjectId"
+value: ""
+path: "_id"
+reason: {}
+pid: 13140
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 09:34:55,416 ERROR 13140 [-/127.0.0.1/-/4ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\Liu\Desktop\mall\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\Liu\Desktop\mall\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"\""
+kind: "ObjectId"
+value: ""
+path: "_id"
+reason: {}
+pid: 13140
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 12:17:58,402 ERROR 6764 nodejs.ClusterClientNoResponseError: client no response in 113846ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 6764
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 12:43:49,351 ERROR 6764 nodejs.ClusterClientNoResponseError: client no response in 610893ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 6764
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 13:14:59,683 ERROR 6764 nodejs.ClusterClientNoResponseError: client no response in 330245ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 6764
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 15:34:29,114 ERROR 3372 nodejs.ClusterClientNoResponseError: client no response in 87215ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 3372
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 16:58:56,432 ERROR 3372 nodejs.ClusterClientNoResponseError: client no response in 127054ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 3372
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 17:39:31,685 ERROR 3372 nodejs.ClusterClientNoResponseError: client no response in 135116ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 3372
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 17:54:23,770 ERROR 18396 [-/127.0.0.1/-/24ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 17:54:24,162 ERROR 18396 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 17:54:47,222 ERROR 18396 [-/127.0.0.1/-/5ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 17:56:34,725 ERROR 18396 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 17:56:40,396 ERROR 18396 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 17:56:41,150 ERROR 18396 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 17:56:41,408 ERROR 18396 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 17:56:42,561 ERROR 18396 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 17:56:44,052 ERROR 18396 [-/127.0.0.1/-/6ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 18:02:26,475 ERROR 18396 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 18:05:11,211 ERROR 18396 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 18:05:13,587 ERROR 18396 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 18:08:28,054 ERROR 18396 [-/127.0.0.1/-/28ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 18:08:33,297 ERROR 18396 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 18:08:36,136 ERROR 18396 [-/127.0.0.1/-/8ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 18:09:48,915 ERROR 18396 [-/127.0.0.1/-/6ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 18:12:29,144 ERROR 18396 [-/127.0.0.1/-/10ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 18:12:31,576 ERROR 18396 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 18:12:35,745 ERROR 18396 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-28 18:12:37,125 ERROR 18396 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18396
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 08:53:01,056 ERROR 18388 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Liu\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Liu\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\Liu\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 08:54:06,977 ERROR 18388 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Liu\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Liu\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\Liu\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 08:56:29,192 ERROR 18388 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Liu\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Liu\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\Liu\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 09:10:08,016 ERROR 18388 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 09:10:08,023 ERROR 18388 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 09:10:12,545 ERROR 18388 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 09:10:12,552 ERROR 18388 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 09:31:11,994 ERROR 18388 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 09:34:07,462 ERROR 18388 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 09:34:15,064 ERROR 18388 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 09:47:47,825 ERROR 18388 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 09:47:54,669 ERROR 18388 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 09:48:51,815 ERROR 18388 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 09:49:49,018 ERROR 18388 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 09:52:42,292 ERROR 18388 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Liu\Desktop\mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Liu\Desktop\mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Liu\Desktop\mall\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Liu\Desktop\mall\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Liu\Desktop\mall\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Liu\Desktop\mall\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 18388
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 11:51:31,655 ERROR 7452 nodejs.ClusterClientNoResponseError: client no response in 174298ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7452
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 12:11:58,544 ERROR 7452 nodejs.ClusterClientNoResponseError: client no response in 166836ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7452
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 12:48:35,726 ERROR 7452 nodejs.ClusterClientNoResponseError: client no response in 357084ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7452
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 13:33:05,018 ERROR 7452 nodejs.ClusterClientNoResponseError: client no response in 1249202ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7452
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 14:18:05,383 ERROR 7452 nodejs.ClusterClientNoResponseError: client no response in 620234ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7452
+hostname: LAPTOP-I8SB88A2
+
+2020-07-29 18:39:14,030 ERROR 7452 nodejs.ClusterClientNoResponseError: client no response in 628107ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7452
+hostname: LAPTOP-I8SB88A2
+
+2020-07-30 12:26:33,072 ERROR 12272 nodejs.ClusterClientNoResponseError: client no response in 1211231ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 12272
+hostname: LAPTOP-I8SB88A2
+
+2020-07-30 12:37:44,535 ERROR 12272 nodejs.ClusterClientNoResponseError: client no response in 171401ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 12272
+hostname: LAPTOP-I8SB88A2
+
+2020-07-30 13:30:35,572 ERROR 12272 nodejs.ClusterClientNoResponseError: client no response in 2930957ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 12272
+hostname: LAPTOP-I8SB88A2
+
+2020-07-31 09:09:18,567 ERROR 15392 nodejs.ClusterClientNoResponseError: client no response in 576133ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 15392
+hostname: LAPTOP-I8SB88A2
+
+2020-07-31 09:40:19,711 ERROR 15392 nodejs.ClusterClientNoResponseError: client no response in 161067ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 15392
+hostname: LAPTOP-I8SB88A2
+
+2020-07-31 12:27:01,618 ERROR 15392 nodejs.ClusterClientNoResponseError: client no response in 1055866ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 15392
+hostname: LAPTOP-I8SB88A2
+
+2020-07-31 12:36:36,551 ERROR 15392 nodejs.ClusterClientNoResponseError: client no response in 334832ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 15392
+hostname: LAPTOP-I8SB88A2
+
+2020-07-31 12:52:34,308 ERROR 15392 nodejs.ClusterClientNoResponseError: client no response in 697695ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 15392
+hostname: LAPTOP-I8SB88A2
+
+2020-07-31 13:16:24,661 ERROR 15392 nodejs.ClusterClientNoResponseError: client no response in 750274ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 15392
+hostname: LAPTOP-I8SB88A2
+
+2020-07-31 13:30:27,525 ERROR 15392 nodejs.ClusterClientNoResponseError: client no response in 296418ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 15392
+hostname: LAPTOP-I8SB88A2
+
+2020-08-03 10:26:36,471 ERROR 8116 nodejs.ClusterClientNoResponseError: client no response in 225067ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 8116
+hostname: LAPTOP-I8SB88A2
+
+2020-08-03 10:40:09,810 ERROR 8116 nodejs.ClusterClientNoResponseError: client no response in 193286ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 8116
+hostname: LAPTOP-I8SB88A2
+
+2020-08-03 11:40:32,080 ERROR 8116 nodejs.ClusterClientNoResponseError: client no response in 282085ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 8116
+hostname: LAPTOP-I8SB88A2
+
+2020-08-03 13:26:27,101 ERROR 8116 nodejs.ClusterClientNoResponseError: client no response in 4594906ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 8116
+hostname: LAPTOP-I8SB88A2
+
+2020-08-03 13:32:28,211 ERROR 8116 nodejs.ClusterClientNoResponseError: client no response in 101057ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 8116
+hostname: LAPTOP-I8SB88A2
+
+2020-08-03 13:38:39,774 ERROR 8116 nodejs.ClusterClientNoResponseError: client no response in 111540ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 8116
+hostname: LAPTOP-I8SB88A2
+
+2020-08-03 16:40:22,653 ERROR 8116 nodejs.ClusterClientNoResponseError: client no response in 282490ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 8116
+hostname: LAPTOP-I8SB88A2
+
+2020-08-04 11:22:15,639 ERROR 7044 nodejs.ClusterClientNoResponseError: client no response in 64600ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7044
+hostname: LAPTOP-I8SB88A2
+
+2020-08-04 12:13:30,634 ERROR 7044 nodejs.ClusterClientNoResponseError: client no response in 254912ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7044
+hostname: LAPTOP-I8SB88A2
+
+2020-08-04 12:23:48,144 ERROR 7044 nodejs.ClusterClientNoResponseError: client no response in 277425ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7044
+hostname: LAPTOP-I8SB88A2
+
+2020-08-04 12:40:55,634 ERROR 7044 nodejs.ClusterClientNoResponseError: client no response in 627378ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7044
+hostname: LAPTOP-I8SB88A2
+
+2020-08-04 13:06:21,681 ERROR 7044 nodejs.ClusterClientNoResponseError: client no response in 992013ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7044
+hostname: LAPTOP-I8SB88A2
+
+2020-08-04 13:14:15,044 ERROR 7044 nodejs.ClusterClientNoResponseError: client no response in 193289ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7044
+hostname: LAPTOP-I8SB88A2
+
+2020-08-04 13:29:26,157 ERROR 7044 nodejs.ClusterClientNoResponseError: client no response in 651059ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7044
+hostname: LAPTOP-I8SB88A2
+
+2020-08-04 13:48:59,377 ERROR 7044 nodejs.ClusterClientNoResponseError: client no response in 65065ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Liu\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7044
+hostname: LAPTOP-I8SB88A2
+
